@@ -15,6 +15,7 @@ import com.example.imoappkotlin.model.ListContacts
 class SecondFragment : Fragment() {
     var recyclerView: RecyclerView? = null
     var contacts = ArrayList<ListContacts>()
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -51,6 +52,5 @@ class SecondFragment : Fragment() {
         contacts.add(ListContacts(R.drawable.img3, "Hamdam Sobirov"))
         contacts.add(ListContacts(R.drawable.img4, "Chelsea FC"))
         contacts.add(ListContacts(R.drawable.img5, "Adama Traore"))
-
     }
 }
